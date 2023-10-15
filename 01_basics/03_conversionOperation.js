@@ -5,9 +5,9 @@ let scoreMix = "33abc"
 //console.log(typeof scoreString);
 //console.log(typeof(scoreNum));
 
-let valueInNumber = Number(scoreString)
+let valueInNumber = Number(scoreMix);
 console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log("Convert 33abc to Num: " + valueInNumber);
 
 
 // "33" => 33
@@ -15,9 +15,15 @@ console.log(valueInNumber);
 //  true => 1; false => 0
 
 let isLoggedIn = "shani"
+let isLoggedInNum = 2
+let isLoggedInString = "0"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+let booleanIsLoggedInNum = Boolean(isLoggedInNum)
+let booleanIsLoggedInString = Boolean(isLoggedInString)
+  console.log("String with haracters" + booleanIsLoggedIn);
+  console.log("Num greater then 1" + booleanIsLoggedInNum);
+  console.log("String with 0" + booleanIsLoggedInString);
 
 // 1 => true; 0 => false
 // "" => false
