@@ -22,8 +22,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let booleanIsLoggedInNum = Boolean(isLoggedInNum)
 let booleanIsLoggedInString = Boolean(isLoggedInString)
   console.log("String with haracters" + booleanIsLoggedIn);
-  console.log("Num greater then 1" + booleanIsLoggedInNum);
-  console.log("String with 0" + booleanIsLoggedInString);
+  console.log("Num greater then 1 " + booleanIsLoggedInNum);
+  console.log(`String with 0 => ${booleanIsLoggedInString}`);
 
 // 1 => true; 0 => false
 // "" => false
