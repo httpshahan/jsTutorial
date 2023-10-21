@@ -24,7 +24,7 @@ console.log(anotherString);
 
 const newStringOne = "   shani    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); //ignoring the spaces
 
 
 
