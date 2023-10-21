@@ -37,3 +37,28 @@ console.log(typeof anotherId);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// stack memory used in primitive
+// giving the copy of the original data
+
+let a = 1;
+let b  = a;
+b = 3
+
+console.log(a);  // 1
+console.log(b);  // 3
+
+// Heap in non-primitive
+// giving the refference to the original data
+
+let obj = {
+    email: "hello@mail.com",
+    name: "Ali"
+}
+let obj2 = obj
+
+obj2.name = "Shani";
+console.log(obj2.name); //Shani
+console.log(obj.name);  //Shani
