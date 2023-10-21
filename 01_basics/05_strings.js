@@ -26,6 +26,10 @@ const newStringOne = "   shani    "
 console.log(newStringOne);
 console.log(newStringOne.trim()); //ignoring the spaces
 
+const url = "https://example.com/abc%20xyz"
 
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('hello')) //false
 
 console.log(gameName.split('-'));
