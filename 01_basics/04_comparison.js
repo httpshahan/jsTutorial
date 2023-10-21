@@ -17,5 +17,5 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 
 // === 
-
+// dataType comparison
 console.log("2" === 2);
