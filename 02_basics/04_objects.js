@@ -74,13 +74,16 @@ const {courseInstructor: instructor} = course  // rename the key, ease of use
 // console.log(courseInstructor);
 console.log(instructor);
 
+// json - javascript object notation, API - application programming interface 
+
 // {
 //     "name": "shani",
 //     "coursename": "js course",
 //     "price": "free"
 // }
 
-[
+// json is a string, it is not an object, it is a data format, it is a standard way of sending data from one place to another
+[ 
     {},
     {},
     {}
