@@ -68,8 +68,8 @@ const course = {
 }
 
 // course.courseInstructor
-
-const {courseInstructor: instructor} = course
+//object destructuring, extract values from object
+const {courseInstructor: instructor} = course  // rename the key, ease of use
 
 // console.log(courseInstructor);
 console.log(instructor);
